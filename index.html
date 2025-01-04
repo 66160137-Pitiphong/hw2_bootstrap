@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="th">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <header>
+        <h1>Heritage Chanthaburi</h1>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">☰</label>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="places.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="search-box">
+            <input type="text" placeholder="Search">
+            <button type="button">Search</button>
+        </div>
+    </header>
+    <main>
+        <div id="carouselExampleCaptions" class="carousel slide mb-5" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://img.wongnai.com/p/1600x0/2019/07/01/192b4b5d05404aa48b68ca7d05f87ad0.jpg"class="d-block w-100"  alt="สถานที่ที่ 1">
+                    <div class="carousel-caption d-block">
+                        <h5>อุทยานแห่งชาติเขาคิชฌกูฏ</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://img.wongnai.com/p/1600x0/2019/07/01/3c491f7536044fe3835f505911a2c737.jpg" class="d-block w-100" alt="สถานที่ที่ 2">
+                    <div class="carousel-caption d-block">
+                        <h5>หาดเจ้าหลาว</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://img.wongnai.com/p/1600x0/2019/07/01/f14b51b80a784d3881bc88b8bfbf6afb.jpg" class="d-block w-100" alt="สถานที่ที่ 3">
+                    <div class="carousel-caption d-block">
+                        <h5>อุทยานแห่งชาติน้ำตกพลิ้ว</h5>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <section>
+            <h2>เกี่ยวกับจันทบุรี</h2>
+        </section>
+        <section>
+            <h2>ไฮไลท์แนะนำ</h2>
+            <div class="places">
+                <div class="container mt-4">
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                        <div class="grid-container">
+                            <div class="grid-item">
+                                <img src="https://www.chillnaid.com/wp-content/uploads/2018/01/%E0%B8%88%E0%B8%B8%E0%B8%94%E0%B8%8A%E0%B8%A1%E0%B8%A7%E0%B8%B4%E0%B8%A7%E0%B9%80%E0%B8%99%E0%B8%B4%E0%B8%99%E0%B8%9E%E0%B8%8D%E0%B8%B2-%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5.jpg" class="card-img-top" alt="จุดชมวิวเนินนางพญา">
+                                <div class="card-body">
+                                    <h5 class="card-title">1. จุดชมวิวเนินนางพญา</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-container">
+                            <div class="grid-item">
+                                <img src="https://img.wongnai.com/p/1600x0/2019/07/01/3c491f7536044fe3835f505911a2c737.jpg" class="card-img-top" alt="หาดเจ้าหลาว">
+                                <div class="card-body">
+                                    <h5 class="card-title">2. หาดเจ้าหลาว</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-container">
+                            <div class="grid-item">
+                                <img src="https://img.wongnai.com/p/1600x0/2019/07/01/6555bc18881b4b648fff086b423e9cc8.jpg" class="card-img-top" alt="ศูนย์ศึกษาธรรมชาติป่าชายเลนอ่าวคุ้งกระเบน" height="150">
+                                <div class="card-body">
+                                    <h5 class="card-title">3. ศูนย์ศึกษาธรรมชาติป่าชายเลนอ่าวคุ้งกระเบน</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-container">
+                            <div class="grid-item">
+                                <img src="https://img.wongnai.com/p/1600x0/2019/07/01/192b4b5d05404aa48b68ca7d05f87ad0.jpg" class="card-img-top" alt="อุทยานแห่งชาติเขาคิชฌกูฏ" height="150">
+                                <div class="card-body">
+                                    <h5 class="card-title">4. อุทยานแห่งชาติเขาคิชฌกูฏ</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-container">
+                            <div class="grid-item">
+                                <img src="https://img.wongnai.com/p/1600x0/2019/07/01/d3034c4841ee4cffbc5a288c873cab7c.jpg" class="card-img-top" alt="วัดปากน้ำแขมหนู" height="150">
+                                <div class="card-body">
+                                    <h5 class="card-title">5. วัดปากน้ำแขมหนู</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-container">
+                            <div class="grid-item">
+                                <img src="https://img.wongnai.com/p/1600x0/2019/07/01/662c7c42c955448b90c7257e94a6956f.jpg" class="card-img-top" alt="ชุมชนริมน้ำจันทบูร">
+                                <div class="card-body">
+                                    <h5 class="card-title">6. ชุมชนริมน้ำจันทบูร</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-container">
+                            <div class="grid-item">
+                                <img src="https://img.wongnai.com/p/1600x0/2019/07/01/d2791169327d4323a6ec0dd2d845f885.jpg" class="card-img-top" alt="อาสนวิหารพระนางมารีอาปฏิสนธินิรมล" height="150">
+                                <div class="card-body">
+                                    <h5 class="card-title">7. อาสนวิหารพระนางมารีอาปฏิสนธินิรมล</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-container">
+                            <div class="grid-item">
+                                <img src="https://img.wongnai.com/p/1600x0/2019/07/01/2f277569b3e14709a120c87fc113fea1.jpg" class="card-img-top" alt="โบราณสถานเมืองเพนียด" height="150">
+                                <div class="card-body">
+                                    <h5 class="card-title">8. โบราณสถานเมืองเพนียด</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-container">
+                            <div class="grid-item">
+                                <img src="https://img.wongnai.com/p/1600x0/2020/08/21/364c40bed6514185ada698c506edba79.jpg" class="card-img-top" alt="ชุมชนขนมแปลก ริมคลองหนองบัว" height="150">
+                                <div class="card-body">
+                                    <h5 class="card-title">9. ชุมชนขนมแปลก ริมคลองหนองบัว</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-container">
+                            <div class="grid-item">
+                                <img src="https://img.wongnai.com/p/1600x0/2019/07/01/f14b51b80a784d3881bc88b8bfbf6afb.jpg" class="card-img-top" alt="อุทยานแห่งชาติน้ำตกพลิ้ว" height="150">
+                                <div class="card-body">
+                                    <h5 class="card-title">10. อุทยานแห่งชาติน้ำตกพลิ้ว</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-container">
+                            <div class="grid-item">
+                                <img src="https://img.wongnai.com/p/1600x0/2019/07/01/bae6b85bab5343bd8d7db88fc54122dd.jpg" class="card-img-top" alt="โอเอซีส ซีเวิลด์" height="150">
+                                <div class="card-body">
+                                    <h5 class="card-title">11. โอเอซีส ซีเวิลด์</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-container">
+                            <div class="grid-item">
+                                <img src="https://img.wongnai.com/p/1600x0/2019/07/01/7410502e04f94ee88bc7c4895d4ba61f.jpg" class="card-img-top" alt="คุกขี้ไก่" height="150">
+                                <div class="card-body">
+                                    <h5 class="card-title">12. คุกขี้ไก่</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-container">
+                            <div class="grid-item">
+                                <img src="https://img.wongnai.com/p/1600x0/2019/07/01/0384b5021f2342cfb55c86e6a26fa6e3.jpg" class="card-img-top" alt="ตึกแดง" height="150">
+                                <div class="card-body">
+                                    <h5 class="card-title">13. ตึกแดง</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-container">
+                            <div class="grid-item">
+                                <img src="https://img.wongnai.com/p/1600x0/2019/07/01/4ac4c97e366f41fbbf9d23698a73382c.jpg" class="card-img-top" alt="น้ำตกตรอกนอง" height="150">
+                                <div class="card-body">
+                                    <h5 class="card-title">14. น้ำตกตรอกนอง</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-container">
+                            <div class="grid-item">
+                                <img src="https://img.wongnai.com/p/1600x0/2019/07/01/83d108ebb91b43deb1d2061be446376f.jpg" class="card-img-top" alt="วัดไผ่ล้อม" height="150">
+                                <div class="card-body">
+                                    <h5 class="card-title">15. วัดไผ่ล้อม</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-container">
+                            <div class="grid-item">
+                                <img src="https://img.wongnai.com/p/1600x0/2019/07/01/7285e74eeacf4f48b75d3df0d6ab4a8d.jpg" class="card-img-top" alt="หาดหินสีชมพู" height="150">
+                                <div class="card-body">
+                                    <h5 class="card-title">16. หาดหินสีชมพู</h5>
+                                </div>
+                            </div>
+                        </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 เที่ยวจันทบุรี | สร้างขึ้นเพื่อการศึกษา</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
